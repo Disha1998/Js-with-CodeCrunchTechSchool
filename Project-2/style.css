@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    background-color: rgba(12, 12, 12, 0.176);
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.user img {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.user button {
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #1DA1F2;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    transition: background-color 0.3s;
+}
+
+.user button:hover {
+    background-color: #0d8cd9;
+}
+
+.user button.unfollow {
+    background-color: #E0245E;
+}
+
+.user button.unfollow:hover {
+    background-color: #c51e4d;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative
+}
+
+
+
+.container i {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 40%;
+    left: 14%;
+    transform: translate(-40%, -48%) scale(0);
+    opacity: 0;
+    transition: all ease 0.4s;
+}

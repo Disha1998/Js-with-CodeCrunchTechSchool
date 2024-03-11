@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="user" id="user1">
+            <img id="img1" src="https://cdn.pixabay.com/photo/2024/02/23/17/26/clock-8592484_1280.jpg" alt="User 1"
+                onclick="InstaLikebtn()">
+            <div>
+                <button onclick="FollowUnfollow('user1')">Follow</button>
+            </div>
+            <i class="ri-heart-fill"></i>
+        </div>
+        <div class="user" id="user2">
+            <img src="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_1280.jpg" alt="User 2">
+            <div>
+                <button onclick="FollowUnfollow('user2')">Follow</button>
+            </div>
+        </div>
+        <div class="user" id="user3">
+            <img src="https://cdn.pixabay.com/photo/2023/10/30/05/19/sunflowers-8351807_1280.jpg" alt="User 3">
+            <div>
+                <button onclick="FollowUnfollow('user3')">Follow</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
