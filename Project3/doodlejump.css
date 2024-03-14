@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    background-color: rgb(10,23,22);
+}
+
+#board{
+    /* background-color: green; */
+    background-image: url('images/doodle-bg.jpg');
+}
